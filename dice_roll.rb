@@ -1,4 +1,4 @@
-# Method using range]
+# Method using range
 
 # def roll
 #   random =  rand(1..6)
@@ -7,6 +7,9 @@
 # end
 
 # roll()
+
+
+#Method using array
 
 def roll
   array = [1,2,3,4,5,6]
