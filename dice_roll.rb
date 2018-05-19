@@ -1,7 +1,21 @@
-# Create method `roll` that returns a random number between 1 and 6
+# Method using range
 
-# Feel free to google "how to generate a random number in ruby"
+# def roll
+#   random =  rand(1..6)
+#   puts random
+#   random
+# end
+
+# roll()
+
+
+#Method using array
 
 def roll
-  # code goes here
+  array = [1,2,3,4,5,6]
+  random = array[rand(array.length)]
+  puts random.to_i
+  random
 end
+
+roll()
